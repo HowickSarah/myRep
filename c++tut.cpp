@@ -7,7 +7,8 @@ int main () {
     int y = 4; 
     y = y + x; 
     cout << y << endl; 
-    cout << x << endl; 
+    
+    cout << "This is a test" << endl;
 
     return 0;
 
