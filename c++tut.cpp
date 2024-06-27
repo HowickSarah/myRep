@@ -9,8 +9,6 @@ int main () {
     cout << y << endl; 
     cout << x << endl; 
 
-    cout << "HELLO" << endl;
-    
     return 0;
 
 }
