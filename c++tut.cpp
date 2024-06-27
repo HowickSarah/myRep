@@ -8,7 +8,7 @@ int main () {
     y = y + x; 
     cout << y << endl; 
     
-    cout << "This is a test" << endl;
+    cout << "Test successful" << endl;
 
     return 0;
 
