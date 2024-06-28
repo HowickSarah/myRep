@@ -28,9 +28,9 @@ int main () {
         }
         cout << " row." << endl; 
         for ((i=0); (i<x); (i++)){
-            cin >> jimmy [j][i] ; // when declaring a matrix in a certain form (as jimmy [n][m] for example) you must contimue to refer to it in its appropriate format (so you can never refer to jimmy [n][m] as jimmy [n*m] after you have initialized it as jimmy [n][m])
+            jimmy [j][i] = (i+1)*(j+1); // when declaring a matrix in a certain form (as jimmy [n][m] for example) you must contimue to refer to it in its appropriate format (so you can never refer to jimmy [n][m] as jimmy [n*m] after you have initialized it as jimmy [n][m])
             //cout << jimmy [i][j] << " ";
-            cin >> billy [j*i]; //billy [n*m] must always be referred to as billy[n*m]
+            billy [j*i] = (i+1)*(j+1); //billy [n*m] must always be referred to as billy[n*m]
             // cout << billy[j*i] << " "; //while in this moment, we can techinally say that we have filled the i*j'th spot in the matrix, we have really only rewritten whatever was in the i*jth spot with something new
         }
         cout << endl;
@@ -39,7 +39,7 @@ int main () {
     //these two arrays will not be the same --> you have made an array and a vector, or a single dim array with values only defined up to 8
     //cout << sizeof(billy)/sizeof(billy[0]) << endl;
     //cout << billy[10] << endl;
-/*
+
     //printing the arrays (starting with Jimmy's)
     i = 0; 
     j =0;
@@ -61,7 +61,7 @@ int main () {
        } 
        cout << endl;
     }
- */   
+    
     //they should returnt the same thing
     return 0;
 
