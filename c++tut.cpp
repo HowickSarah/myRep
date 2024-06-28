@@ -43,7 +43,7 @@ int main () {
         }
         cout << endl;
     }
-
+    cout << endl;
     //now to billy's 
     i=0;
     j=0;
